@@ -1,14 +1,18 @@
 {
-  "name": "iap",
-  "version": "1.1.1",
+  "name": "iap-mini",
+  "version": "1.1.2",
   "description": "In-app purchase validation for Apple, Google, Amazon, Roku",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "eslint ."
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Wizcorp/node-iap"
+    "url": "https://github.com/KuuHubb/node-iap-mini"
+  },
+  "publishConfig": {
+    "registry": "https://npm.kuuhubb.com/"
   },
   "keywords": [
     "iap",
@@ -21,11 +25,14 @@
     "purchase",
     "itunes"
   ],
-  "author": "Ron Korving <rkorving@wizcorp.jp>",
+  "contributors": [
+    "Juha-Jarmo Heinonen <jammi@kuuhubb.com>",
+    "S H Mohanjith <mohanjith@kuuhubb.com>",
+    "Ron Korving <rkorving@wizcorp.jp>"
+  ],
   "license": "MIT",
   "dependencies": {
-    "jwt-simple": "0.5.6",
-    "minimist": "0.0.8"
+    "jwt-simple": "0.5.6"
   },
   "devDependencies": {
     "eslint": "6.8.0",
